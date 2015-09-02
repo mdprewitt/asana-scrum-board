@@ -7,7 +7,9 @@
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-<script src="index.js"></script>
+<!-- script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script -->
+<script src="//fb.me/react-0.13.3.js"></script>
+<script src="//fb.me/JSXTransformer-0.13.3.js"></script>
 <link rel="stylesheet" href="board_style.css" />
 <link rel="stylesheet" href="chart_style.css" />
 <link rel="stylesheet" href="cumulative_flow_style.css" />
@@ -35,12 +37,7 @@
    </div>
 <br/>
     <div id="project"></div>
-    <table>
-      <tbody>
-      <tr id="board">
-      </tr>
-      </tbody>
-    </table>
+    <script type="text/jsx;harmony=true" src="asana-react.jsx"></script>
     <br />
     <div class="cumulative-flow-viz-container">
       <svg class="cumulative-flow-viz" width="1200" height="800">
@@ -100,6 +97,5 @@
     <button class="closeCard">Done</button><br>
   </div>
 </span>
-<script>setupDemo();</script>
 </body>
 </html>
